@@ -1,0 +1,11 @@
+.progress {
+  /* gradient from left to right */
+  background: linear-gradient(to right, #FFFA12 45%, #ff00b500)
+}
+
+@media screen and (max-width: 768px) {
+  .progress {
+    /* gradient from top to bottom */
+    background: #FFFA12;
+  }
+}

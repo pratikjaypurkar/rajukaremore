@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-clr: #C6318B;
+    --primary-txt: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body p {
+    font-family: var(--font-poppins);
+}
+
+.vertical-gradient {
+    background: linear-gradient(180deg, #000000b9, #00000000);
+}
+
+.vertical-gradient-orange {
+    background: linear-gradient(180deg, #FFFA12 0%, #00000000 80%);
+}
+
+.hero {
+    background-image: url('/assets/backgrounds/hero.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.blue-orange-gradient {
+    background: linear-gradient(50deg, #1B2F50 69.6%, #C6318B 87%);
+}

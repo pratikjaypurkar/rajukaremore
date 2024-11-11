@@ -1,0 +1,162 @@
+.containern {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1.25rem;
+  background-color: white;
+}
+
+.titlen {
+  text-align: center;
+  font-size: 3.4375rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  color: #C6318B;
+}
+
+.subn {
+  text-align: center;
+  font-size: 1.75rem;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+  color: #282626;
+  padding: 0rem 9.375rem;
+}
+
+.gridn {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21.875rem, 1fr));
+  padding: 3.125rem;
+  gap: 1.25rem;
+  background-color: white;
+}
+
+.cardn {
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.3125rem;
+  overflow: hidden;
+  box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
+  background-color: #F7EBEB;
+}
+
+.card-imagen {
+  width: 100%;
+  height: 18.75rem;
+  object-fit: cover;
+}
+
+.card-contentn {
+  padding: 1.25rem;
+}
+
+.card-contentn h3 {
+  font-size: 1.625rem;
+  margin-bottom: 0.625rem;
+  font-weight: 600;
+  color: #282626;
+}
+
+.card-contentn p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  margin-bottom: 0.625rem;
+  font-weight: 400;
+  color: #000000;
+}
+
+.icon {
+  display: inline-block;
+  margin-left: 0.3125rem;
+  vertical-align: middle;
+}
+
+.read-more-button {
+  background-color: #C6318B;
+  color: white;
+  padding: 0.625rem 1.25rem;
+  border-radius: 1.875rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 0.0625rem solid #C6318B;
+}
+
+.read-more-button:hover {
+  background-color: #0056b3;
+}
+
+.arrow {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.arrow svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: #007bff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 48rem) {
+  /* Mobile styles */
+
+  .subn {
+    padding: 0rem 0;
+  }
+
+  .containern {
+    padding: 0.625rem;
+  }
+
+  .titlen {
+    font-size: 1.875rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .sub {
+    font-size: 1.125rem;
+    margin-bottom: 1.25rem;
+    padding: 0rem 1.25rem;
+  }
+
+  .gridn {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.625rem;
+    padding: 1.25rem;
+  }
+
+  .cardn {
+    margin-bottom: 1.25rem;
+  }
+
+  .card-imagen {
+    height: 15.625rem;
+  }
+
+  .card-content {
+    padding: 0.625rem;
+  }
+
+  .card-content h3 {
+    font-size: 1.125rem;
+    margin-bottom: 0.3125rem;
+  }
+
+  .card-content p {
+    font-size: 0.875rem;
+    line-height: 1.2;
+    margin-bottom: 0.625rem;
+  }
+
+  .read-more-button {
+    padding: 0.3125rem 0.625rem;
+    font-size: 0.75rem;
+  }
+
+  .arrow {
+    margin-top: 1.25rem;
+  }
+
+  .arrow svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
